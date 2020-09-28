@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everis.HandsOnWpf", "Everis.HandsOnWpf.csproj", "{AD7BFA89-1669-4AE7-8736-AC53576EAA3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhaBibliotecaExterna", "..\MinhaBibliotecaExterna\MinhaBibliotecaExterna.csproj", "{0BD1BEF5-0045-470E-BE98-76F44ABA8317}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{AD7BFA89-1669-4AE7-8736-AC53576EAA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD7BFA89-1669-4AE7-8736-AC53576EAA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD7BFA89-1669-4AE7-8736-AC53576EAA3A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0BD1BEF5-0045-470E-BE98-76F44ABA8317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0BD1BEF5-0045-470E-BE98-76F44ABA8317}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0BD1BEF5-0045-470E-BE98-76F44ABA8317}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0BD1BEF5-0045-470E-BE98-76F44ABA8317}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

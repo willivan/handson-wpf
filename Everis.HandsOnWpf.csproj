@@ -287,12 +287,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MinhaBibliotecaExterna\MinhaBibliotecaExterna.csproj">
-      <Project>{0bd1bef5-0045-470e-be98-76f44aba8317}</Project>
-      <Name>MinhaBibliotecaExterna</Name>
-    </ProjectReference>
-  </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
