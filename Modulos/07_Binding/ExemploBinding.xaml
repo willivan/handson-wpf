@@ -7,8 +7,12 @@
         mc:Ignorable="d"
         DataContext="{Binding RelativeSource={RelativeSource Mode=Self}}"
         Title="ExemploBinding" Height="450" Width="800">
+    <Window.Resources>
+        <local:ClientePremiumConverter x:Key="ClientePremiumConverter"></local:ClientePremiumConverter>
+    </Window.Resources>
     <DockPanel>
         <ListView Width="200" ItemsSource="{Binding Clientes}" DisplayMemberPath="Nome" SelectedItem="{Binding ClienteSelecionado}" DockPanel.Dock="Left">
+        
         </ListView>
         <StackPanel Margin="16">
             <TextBlock>Id</TextBlock>
@@ -25,6 +29,10 @@
 
             <TextBlock>Tipo de Cliente</TextBlock>
             <ComboBox ItemsSource="{Binding TiposCliente}" SelectedValue="{Binding Path=ClienteSelecionado.TipoClienteID}" DisplayMemberPath="Nome" SelectedValuePath="ID"></ComboBox>
+            <StackPanel Visibility="{Binding Path=ClienteSelecionado.TipoClienteID, Converter={StaticResource ClientePremiumConverter}}">
+                <TextBlock>Descrição do Cliente</TextBlock>
+                <TextBox></TextBox>
+            </StackPanel>
         </StackPanel>
     </DockPanel>
 </Window>

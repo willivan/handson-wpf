@@ -218,6 +218,7 @@
     </Compile>
     <Compile Include="Modulos\06_Formatacao\ItemClienteFormatacao.cs" />
     <Compile Include="Modulos\07_Binding\Cliente.cs" />
+    <Compile Include="Modulos\07_Binding\ClientePremiumConverter.cs" />
     <Compile Include="Modulos\07_Binding\ExemploBinding.xaml.cs">
       <DependentUpon>ExemploBinding.xaml</DependentUpon>
     </Compile>

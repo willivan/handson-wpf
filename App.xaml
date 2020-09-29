@@ -8,7 +8,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/MinhaBibliotecaExterna;component/Themes/Generic.xaml"></ResourceDictionary>
+                <!--<ResourceDictionary Source="pack://application:,,,/MinhaBibliotecaExterna;component/Themes/Generic.xaml"></ResourceDictionary>-->
                 <ResourceDictionary>
                     <di:ViewModelLocator x:Key="ViewModelLocator"></di:ViewModelLocator>
                     <SolidColorBrush x:Key="CorPrimaria" Color="Blue"></SolidColorBrush>

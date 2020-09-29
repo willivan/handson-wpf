@@ -56,5 +56,12 @@ namespace Everis.HandsOnWpf.Modulos._10_MVVM.ViewModel
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propName));
         }
+
+        public void Salvar()
+        {
+            //Validar o cliente
+            //Chamar o repositório
+            //Notificar que foi salvo com sucesso
+        }
     }
 }
